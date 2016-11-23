@@ -9,7 +9,7 @@
 
 <body>
 
-<header>
+
 		<nav>
 			<ul>
 				<li><a href="index.html">NS van ver halen</a></li>
@@ -18,37 +18,13 @@
 				<li><a href="#">Zoeken</a></li>
 			</ul>
 		</nav>
-	</header>
-		
-			<label >Sorteer op:</label>
-			<select name="Sorteren">
-				<option value="nieuw_oud">Nieuw-oud</option>
-				<option value="populariteit">Populariteit</option>
-			</select>
-			<label >Lees tijd</label>
-			<select name="Lees tijd">
-				<option value="0-15">0-15 min</option>
-				<option value="15-30">15-30 min</option>
-				<option value="30+">30+ min</option>
-			</select>
-			<label >Niveau</label>
-			<select name="Niveau">
-				<option value="kinderen">kinderen</option>
-				<option value="easy read">easy read</option>
-				<option value="gevorderd">gevorderd</option>
-			</select>
-			<label >Verhalen over</label>
-			<select name="Verhalen over">
-				<option value="Liefde">Liefde</option>
-				<option value="Dagelijks leven">Dagelijks leven</option>
-				<option value="Avontuur">Avontuur</option>
-			</select>
 
+	<main>
 		<article>
 			<header>
-			<h2>Toeristische route</h2>
-				<p>10 nov.</p>
-				<p>15 min.</p>
+				<h2>Toeristische route</h2>
+					<time datetime="2016-11-10">10 nov.</time>
+					<p>15 min.</p>
 				
 				<ul>
 					<li><a href="#">Like (20)</a></li>
@@ -76,10 +52,11 @@
 			
 			<ul>
 				<li><a href="#">Like (20)</a></li>
+				<li><a href="#">Reageer (15)</a></li>
 				<li><a href="#">Opslaan</a></li>
 			</ul>
 			
-			<h5>Tags:</h5>
+			<h4>Tags:</h4>
 			<ul>
 				<li>Spannend</li>
 				<li>Heftig</li>
@@ -89,25 +66,29 @@
 			</footer>
 			
 		</article>
+	</main>
 		
 		<footer>
 			<h3>Reacties: (15)</h3>
-			<fieldset>
-				<h5>Bart</h5>
-				<input name="reactie" type="text" placeholder="Laat een reactie achter">
-				<input name="annuleer" type="button" value="annuleer">
-				<input name="reageer" type="button" value="reageer">
-			</fieldset>
-			
-			<blockquote>
-				<h5>Rick</h5>
-				<p>Een reactie van Rick...</p>
-			</blockquote>
-			
-			<blockquote>
-				<h5>Armand</h5>
-				<p>Een reactie van Armand...</p>
-			</blockquote>
+				<fieldset>
+				<legend>Laat een reactie achter op dit verhaal</legend>
+					<h5>Bart</h5>
+						<label>Mijn reactie: 
+							<input name="reactie" type="text" placeholder="Laat hier een reactie achter" minlength="10">
+						</label>
+						<button name="annuleer_knop">Annuleer</button>
+						<button name="reageer_knop" type="submit">Reageer</button>
+				</fieldset>
+
+				<blockquote>
+					<h5>Rick</h5>
+					<p>Een reactie van Rick...</p>
+				</blockquote>
+
+				<blockquote>
+					<h5>Armand</h5>
+					<p>Een reactie van Armand...</p>
+				</blockquote>
 		</footer>
 	
 </body>
