@@ -1,6 +1,76 @@
 *{
 	box-sizing: border-box;
 }
+body{
+	font-family: "Avenir";
+	margin:0.832em;
+	background-color:rgb(231,230,233);
+	line-height: 1.618em;
+}
+
+nav{
+	margin:0.832em;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+}
+
 fieldset>label{
 	display: none;
+}
+
+ul{
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+
+li>a{
+	text-decoration: none;
+	color:black;
+	font-weight: 600;
+}
+
+fieldset{
+	border-style: none;
+	padding: 0;
+	margin:0.832em;
+}
+
+input{
+	background-color:rgb(0,110,154);
+	color: white;
+	letter-spacing: 0.075em;
+	border-style: none;
+	font-size:0.832em;
+	padding:0.3em 0.7em;
+	margin:0.5em 0 0 0.2em;
+}
+
+aside{
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	margin-top:1.618em;
+}
+
+aside>p{
+	margin:0.832em;
+	font-style: italic;
+}
+
+article{
+	padding:0.832em;
+}
+
+article>header>label{
+	font-style: italic;
+}
+
+h2{
+	margin: 0;
+}
+
+article>p{
+	font-family: "Century Schoolbook";
 }
