@@ -107,7 +107,7 @@ article>footer{
 	article>footer{
 	display: flex;
 	justify-content: center;
-		flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 }
 
