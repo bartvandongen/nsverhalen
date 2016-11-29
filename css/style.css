@@ -26,7 +26,7 @@ ul{
 
 li>a{
 	text-decoration: none;
-	color:black;
+	color:rgb(0,50,100);
 	font-weight: 600;
 }
 
@@ -37,7 +37,7 @@ fieldset{
 }
 
 input{
-	background-color:rgb(0,110,154);
+	background-color:rgb(130,187,230);
 	color: white;
 	letter-spacing: 0.075em;
 	border-style: none;
@@ -56,10 +56,13 @@ aside{
 aside>p{
 	margin:0.832em;
 	font-style: italic;
+	color:()
 }
 
 article{
 	padding:0.832em;
+	margin-top: 1.5em;
+	max-width: 70rem;
 }
 
 article>header>label{
@@ -68,6 +71,8 @@ article>header>label{
 
 h2{
 	margin: 0;
+	max-width: 20em;
+	line-height: 1.45em;
 }
 
 article>p{
@@ -76,8 +81,8 @@ article>p{
 
 @media (min-width:35rem){
 	article>p{
-		columns:20em;
-		column-count: 3;
+		columns:22em;
+		column-count: 2;
 		column-gap: 2em;
 		max-width: 80vw;
 	}
@@ -96,5 +101,19 @@ article>p{
 	nav>ul:first-child{
 		align-self: flex-start;
 		text-align: left;
+	}
+}
+@media (min-width:90rem){
+	main{
+  		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end
+	}
+	article{
+		max-width: 50rem;
+		margin-right: 3em;
+	}
+	article:nth-child(even){
+		width: 30rem;
 	}
 }
