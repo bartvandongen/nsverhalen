@@ -132,7 +132,6 @@ article>footer{
 	main{
   		display: flex;
 		flex-wrap: wrap;
-		align-items: flex-end
 	}
 	article{
 		max-width: 50rem;
