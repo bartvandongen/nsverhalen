@@ -6,7 +6,7 @@ body{
 	margin:1.618em;
 	background-color: white;
 	line-height: 1.618em;
-	text-rendering: geometricPrecision;
+	text-rendering: optimizeLegibility;
 	background-color:rgb(231,230,233);
 }
 
@@ -14,6 +14,31 @@ nav{
 	margin:0.832em;
 	justify-content: flex-end;
 	text-align: right;
+}
+
+.expanded a{
+	color:white;
+	background-color: rgb(0,50,100);
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.expanded #login{
+	display: block;
+	width: 
+}
+
+#login{
+	background-color: rgb(0,50,100);
+	color: white;
+	padding: 1em 0 1em 0;
+	display: none;
+}
+
+input[type="email"]{
+	background-color: white;
+	color: 	hsla(27,9%,62%,0.80);
+	width: 
 }
 
 label{
