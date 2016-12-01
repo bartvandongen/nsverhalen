@@ -92,6 +92,13 @@ input{
 	color:black;
 }
 
+fieldset a{
+	color:rgb(0,110,154);
+	text-decoration: none;
+	display: block;
+	margin-top:0.5em;
+}
+
 aside{
 	padding:0.05em;
 	background-color: white;
