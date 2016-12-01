@@ -14,6 +14,36 @@ nav{
 	margin:0.832em;
 	justify-content: flex-end;
 	text-align: right;
+	/*
+	background-image:url();
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	*/
+}
+
+ul{
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+
+li{
+	margin-top: 0.4em;
+}
+
+li>a{
+	text-decoration: none;
+	color:rgb(0,50,100);
+	font-weight: 600;
+}
+
+#titel{
+	font-style: italic;
+	color:white;
+	background-color:rgb(0,50,100);
+	padding:0.3em 0.5em;
+	display: inline-block;
 }
 
 div a{
@@ -53,22 +83,6 @@ input[type="email"]{
 
 label{
 	display: none;
-}
-
-ul{
-	list-style: none;
-	padding:0;
-	margin: 0;
-}
-
-li{
-	margin-top: 0.4em;
-}
-
-li>a{
-	text-decoration: none;
-	color:rgb(0,50,100);
-	font-weight: 600;
 }
 
 fieldset{
