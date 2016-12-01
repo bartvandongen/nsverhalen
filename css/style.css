@@ -16,6 +16,11 @@ nav{
 	text-align: right;
 }
 
+div a{
+	text-decoration: none;
+	margin-top: 0.5em;
+}
+
 .expanded a{
 	color:white;
 	background-color: rgb(0,50,100);
@@ -24,21 +29,26 @@ nav{
 }
 
 .expanded #login{
+	display: flex;
+}
+
+#login div{
+	background-color: rgb(0,50,100);
+	color: white;
+	padding: 1em;
 	display: block;
-	width: 
+	margin:0;
+	margin-left: auto;
 }
 
 #login{
-	background-color: rgb(0,50,100);
-	color: white;
-	padding: 1em 0 1em 0;
 	display: none;
 }
 
 input[type="email"]{
 	background-color: white;
 	color: 	hsla(27,9%,62%,0.80);
-	width: 
+	min-width: 25em;
 }
 
 label{
@@ -121,6 +131,7 @@ article>p{
 
 article a{
 	color:rgb(0,110,154);
+	text-decoration: underline;
 }
 
 article>footer{
@@ -133,7 +144,14 @@ article>footer{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}
+	}
+	input[type="email"]{
+	min-width: 10em;
+	}
+	#login div{
+	margin-left:1em;
+	}
+
 }
 
 @media (min-width:35rem){
