@@ -104,13 +104,14 @@ main {
  mix-blend-mode: difference;
 }
 
-h1 {
+h2 {
  font-family: 'ns_sans_bold';
  text-transform: uppercase;
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
  margin: 1em;
+ max-width: 100%;
 }
 
 span {
@@ -150,4 +151,16 @@ span {
 
 #k {
  color: #2e2e2e;
+}
+
+article {
+ border: none;
+ padding: 1em;
+ margin: 1em;
+ max-width: 35em;
+}
+
+p {
+ margin: 0.5em;
+ padding: 0;
 }

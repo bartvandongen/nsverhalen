@@ -21,20 +21,167 @@ body {
  overflow-x: hidden;
 }
 
-nav {
+body {
+ padding: 1em;
  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
 }
 
-nav:nth-child(1) {
- margin-left: auto;
+header {
+ min-width: 60vw;
+}
+
+h1 {
+ position: absolute;
+ margin: 0;
+ padding: 0.5em;
+ font-size: 1.2rem;
+ background-color: #2e2e2e;
+}
+
+h1 a {
+ color: white;
+ text-decoration: none;
+}
+
+ul {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ list-style: none;
+ padding:0;
+}
+
+li {
+ padding: 0.5em;
+ text-align: right;
+}
+
+header ul a {
+ text-decoration: none;
+ color: #2e2e2e;
+ font-family: 'ns_sans_bold';
+}
+
+select {
+ background-color: transparent;
+ border: 0;
+  -webkit-appearance: button;
+ font-size: 1em;
+ margin: 0 0 1em 1em;
+}
+
+header img {
+ width: 1rem;
+ height: auto;
+}
+
+img[src="images/ik3.jpg"] {
+ border-radius: 50%;
+}
+
+header ul img {
+ margin-right: 1em;
 }
 
 aside {
  background-color: #2e2e2e;
- color: #e7e6e9;
+ color: white;
+ max-width: 35em;
+ min-width: 60vw;
 }
 
-p, address, time {
- max-width: 35em;
+aside p {
  padding: 1em;
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin-top: 1em;
+ align-items: baseline;
+}
+
+h2 {
+ margin: 0;
+ padding: 0.5rem;
+ font-family: 'ns_sans_bold';
+ max-width: 20rem;
+ line-height: 2.5rem;
+}
+
+p{
+ padding: 0 0.5em;
+ margin: 0;
+}
+
+article {
+ border: 1px solid #2e2e2e;
+ padding: 1em;
+ margin: 1em;
+ max-width: 20em;
+}
+
+.ongeluk {
+ background-image: url(images/ongeluk_thumb.svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+article a {
+ text-decoration: underline;
+ color: #2e2e2e;
+}
+
+address {
+ font-size: 1rem;
+ max-width: 35em;
+ padding: 0.5em;
+}
+
+.author {
+ font-family: 'ns_sans_bold';
+}
+
+time {
+ padding: 0;
+}
+
+article img {
+ width: 1rem;
+ height: auto;
+}
+
+article footer img {
+ height: 2rem;
+ width: auto;
+ margin: 0.5em;
+}
+
+article footer img:nth-of-type(3) {
+ margin-left: auto;
+}
+
+article footer {
+ display: flex;
+ margin-top: 0.5em;
+ align-items: center;
+}
+
+@media (max-width: 25rem) {
+ body {
+  padding: 0.5em;
+ }
+ p {
+  padding: 0.5em;   
+ }
+ address {
+  padding: 0.5em;
+ } 
+ select {
+  font-size: 0.8em;
+  margin: 0 0 1em 0.5em;
+ }
 }
