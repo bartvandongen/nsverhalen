@@ -38,6 +38,12 @@ h1 {
  padding: 0.5em;
  font-size: 1.2rem;
  background-color: #2e2e2e;
+    
+ transition: all .3s ease-in-out;
+}
+
+h1:hover {
+ transform: scale(1.1);
 }
 
 h1 a {
@@ -53,15 +59,30 @@ ul {
  padding:0;
 }
 
-li {
+nav li {
  padding: 0.5em;
- text-align: right;
+ text-align: right;  
 }
 
-header ul a {
+nav ul a:hover {
+ text-decoration: underline;
+}
+
+nav ul a {
  text-decoration: none;
  color: #2e2e2e;
  font-family: 'ns_sans_bold';
+}
+
+.select_wrap {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: baseline;
+}
+
+.select_wrap img {
+ margin-right: 1em;
 }
 
 select {
@@ -122,6 +143,12 @@ article {
  padding: 1em;
  margin: 1em;
  max-width: 20em;
+    
+ transition: all .3s ease-in-out;
+}
+
+article:hover {
+ transform: scale(1.1);
 }
 
 .ongeluk {
@@ -170,12 +197,20 @@ article footer {
  align-items: center;
 }
 
-@media (max-width: 25rem) {
+@media (max-width: 35rem) {
  body {
+  padding: 0.5em;
+  margin: 0;
+ }
+ aside{
+  width: 100vw;
+ }
+ article{
+  margin: 0.5em 0 0 0;
   padding: 0.5em;
  }
  p {
-  padding: 0.5em;   
+  padding: 0 0.5em;
  }
  address {
   padding: 0.5em;

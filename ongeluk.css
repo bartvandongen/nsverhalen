@@ -21,6 +21,10 @@ main {
  justify-content: center;   
 }
 
+header {
+ z-index: 2;
+}
+
 .shape_container {
  display: flex;
  flex-wrap: wrap;
@@ -32,7 +36,7 @@ main {
  height: 40vw;
  position: absolute;
  top: 2em;
- left: -5em;
+ left: 0em;
  z-index:0;
  transform: rotate(10deg);
 	
@@ -78,7 +82,7 @@ main {
  height: 30vh;
  position: absolute;
  top: 1em;
- right: -1em;
+ right: 0;
  z-index: 0;
  transform: rotate(-20deg);
  mix-blend-mode: difference;
@@ -98,7 +102,7 @@ main {
  border-radius: 100%;
  position: absolute;
  top: 50em;
- right: -1em;
+ right: 0em;
  z-index: 0;
  transform: rotate(-20deg);
  mix-blend-mode: difference;
@@ -160,7 +164,23 @@ article {
  max-width: 35em;
 }
 
+article:hover {
+ transform: none;
+}
+
 p {
  margin: 0.5em;
  padding: 0;
+}
+
+@media (max-width: 35rem) {
+ header {
+  width: 100vw;
+ }
+ article {
+  margin: 0;
+ }
+ p {
+  margin: 0.5em 0 0 0;
+ }
 }
