@@ -50,11 +50,12 @@ button {
  font-size: 1.2rem;
  padding: 0.5em;
  margin: 0.5em;
- border: none;
 }
 
 .stap1 {
  display: none;
+ background-color: #7dc142;
+ padding: 1em;
 }
 
 .stap2 {
