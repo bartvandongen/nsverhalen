@@ -1,9 +1,17 @@
-h2 {
- display: none;
+h1 {
+ background-color: transparent;
 }
 
-span {
- padding: 0.2em;
+nav ul a {
+ color: #e7e6e9;
+}
+
+h2 {
+ display: none;
+} 
+
+body{
+ background-color: #003264;
 }
 
 article {
@@ -17,9 +25,8 @@ article:hover {
  transform: none;
 }
 
-.bg_image_container {
- width: 80vw;
- height: auto;
+address {
+ color: #e7e6e9;
 }
 
 @keyframes opacity {
@@ -52,6 +59,7 @@ img[src="images/droom_titel.svg"] {
 p {
  margin: 0.5em;
  padding: 0;
+ color: white;
 }
 
 .faded {
@@ -69,12 +77,12 @@ p {
 }
 
 @keyframes colorFade {
-    from {
-     color: #ef3d23;
-    }
-    to {
-     color: #f9d777;
-    }
+ from {
+  color: #ef3d23;
+ }
+ to {
+  color: #f9d777;
+ }
 }
 
 .redToYellow {
@@ -85,12 +93,12 @@ p {
 }
 
 @keyframes sizing {
-    from {
-        font-size: 1.2rem;;
-    }
-    to {
-        font-size: 0.2rem;;
-    }
+ from {
+  font-size: 1.2rem;;
+ }
+ to {
+  font-size: 0.2rem;;
+ }
 }
 
 .smaller {
@@ -103,6 +111,13 @@ p {
 @media (max-width: 35rem) {
  header {
   width: 100vw;
+ }
+ img[src="images/droom_titel.svg"] {
+  position: fixed;
+  top: 0;
+  left: -5em;
+  max-width: 150vw;
+  height: auto;
  }
  article {
   margin: 0;
