@@ -31,7 +31,7 @@ address {
 
 @keyframes opacity {
  from {
-  opacity: 0.8;       
+  opacity: 0.7;       
  }
  to {
   opacity: 0;
@@ -106,6 +106,26 @@ p {
  animation-duration: 5s;
  animation-iteration-count: infinite;
  animation-direction: alternate; 
+}
+
+img[src="images/lijnen_3d.png"]{
+ width: 100vw;
+ height: auto;
+ z-index: -2;
+ position: absolute;
+ top: 30em;
+ left: 0;
+ opacity: 0.3;
+}
+
+img[src="images/cirkels_3d_alt.png"]{
+ width: 100vw;
+ height: auto;
+ z-index: -3;
+ position: absolute;
+ top: -20em;
+ left: 0;
+ opacity: 0.8;
 }
 
 @media (max-width: 35rem) {

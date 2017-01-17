@@ -149,6 +149,12 @@ article {
  background-repeat: no-repeat;
 }
 
+.droom{
+ background-image: url(images/droom_thumb.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
 article a {
  text-decoration: underline;
  color: #2e2e2e;
