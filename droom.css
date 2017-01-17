@@ -26,6 +26,11 @@ article:hover {
  transform: none;
 }
 
+.bg_image_container {
+ width: 80vw;
+ height: auto;
+}
+
 img[src="images/droom_titel.svg"] {
  z-index: -1;
  position: absolute;
@@ -38,10 +43,6 @@ img[src="images/droom_titel.svg"] {
  animation-name: opacity;
  animation-iteration-count: infinite;
  animation-direction: alternate;
-}
-
-address {
- display: block;
 }
 
 p {

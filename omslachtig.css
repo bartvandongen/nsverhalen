@@ -1,12 +1,3 @@
-@keyframes opacity {
- from {
-  opacity: 1;       
- }
- to {
-  opacity: 0;
- }
-}
-
 h2 {
  display: none;
 }
@@ -24,24 +15,6 @@ article {
 
 article:hover {
  transform: none;
-}
-
-img[src="images/droom_titel.svg"] {
- z-index: -1;
- position: absolute;
- top: 0;
- left: -50vw;
- width: 200vw;
- height: 200vh;
-    
- animation-duration: 3s;
- animation-name: opacity;
- animation-iteration-count: infinite;
- animation-direction: alternate;
-}
-
-address {
- display: block;
 }
 
 p {
