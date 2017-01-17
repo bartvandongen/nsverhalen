@@ -1,9 +1,9 @@
-var eersteStap = document.querySelector('p:nth-of-type(1)');
+var button1 = document.querySelector('button');
 
-var button1 = document.querySelector('button:nth-of-type(1)');
+var eersteStap = document.querySelector('.tweede_paragraaf');
 
-var show = function () {
-    eersteStap.classList.add('visible');
+var visibleMaken = function () {
+    eersteStap.classList.toggle('expanded');
 };
 
-button1.addEventListener('click', show);
+button1.addEventListener('click', visibleMaken);

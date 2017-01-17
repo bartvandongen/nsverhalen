@@ -38,12 +38,10 @@ h1 {
  padding: 0.5em;
  font-size: 1.2rem;
  background-color: #2e2e2e;
-    
- transition: all .3s ease-in-out;
 }
 
 h1:hover {
- transform: scale(1.1);
+ text-decoration: underline;
 }
 
 h1 a {
@@ -143,12 +141,6 @@ article {
  padding: 1em;
  margin: 1em;
  max-width: 20em;
-    
- transition: all .3s ease-in-out;
-}
-
-article:hover {
- transform: scale(1.1);
 }
 
 .ongeluk {

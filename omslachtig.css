@@ -17,14 +17,50 @@ article:hover {
  transform: none;
 }
 
+img[src="images/enigzins.svg"] {
+ width: inherit;
+ height: auto;
+ background-color: #7f47dd;
+ padding: 1em;
+}
+
+img[src="images/aan_de_omslachtige_kant.svg"] {
+ width: inherit;
+ height: auto;
+ position: absolute;
+ top: 50vh;
+ left: 0;
+ padding: 1em;
+}
+
+h2 {
+ display: none;
+}
+
 p {
  margin: 0.5em;
  padding: 0;
 }
 
+.tweede_paragraaf {
+ display: none;
+}
+
+.expanded { 
+ display: block;
+}
+
 @media (max-width: 35rem) {
  header {
   width: 100vw;
+ }
+ img[src="images/enigzins.svg"] {
+  width: 100vw;
+  height: auto;
+ }
+ img[src="images/aan_de_omslachtige_kant.svg"] {
+  width: 100vw;
+  height: auto;
  }
  article {
   margin: 0;
