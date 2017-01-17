@@ -1,12 +1,3 @@
-@keyframes opacity {
- from {
-  opacity: 1;       
- }
- to {
-  opacity: 0;
- }
-}
-
 h2 {
  display: none;
 }
@@ -31,6 +22,19 @@ article:hover {
  height: auto;
 }
 
+@keyframes opacity {
+ from {
+  opacity: 0.8;       
+ }
+ to {
+  opacity: 0;
+ }
+}
+body>header {
+ display: block;
+ width: 100%;
+}
+
 img[src="images/droom_titel.svg"] {
  z-index: -1;
  position: absolute;
@@ -48,6 +52,52 @@ img[src="images/droom_titel.svg"] {
 p {
  margin: 0.5em;
  padding: 0;
+}
+
+.faded {
+ animation-name: opacity;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
+.faded2 {
+ animation-name: opacity;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate; 
+}
+
+@keyframes colorFade {
+    from {
+     color: #ef3d23;
+    }
+    to {
+     color: #f9d777;
+    }
+}
+
+.redToYellow {
+ animation-name: colorFade;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate; 
+}
+
+@keyframes sizing {
+    from {
+        font-size: 1.2rem;;
+    }
+    to {
+        font-size: 0.2rem;;
+    }
+}
+
+.smaller {
+ animation-name: sizing;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate; 
 }
 
 @media (max-width: 35rem) {

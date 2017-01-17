@@ -1,3 +1,7 @@
+body>header {
+ display: block;
+ width: 100%;
+}
 h2 {
  display: none;
 }
@@ -42,12 +46,27 @@ p {
  padding: 0;
 }
 
-.tweede_paragraaf {
+button {
+ font-size: 1.2rem;
+ padding: 0.5em;
+ margin: 0.5em;
+ border: none;
+}
+
+.stap1 {
+ display: none;
+}
+
+.stap2 {
  display: none;
 }
 
 .expanded { 
  display: block;
+}
+
+.noshow {
+ display: none;
 }
 
 @media (max-width: 35rem) {
