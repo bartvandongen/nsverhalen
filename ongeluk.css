@@ -158,6 +158,81 @@ span {
  color: #2e2e2e;
 }
 
+@keyframes fall {
+ from {
+  transform: rotate(2deg);
+  position: relative;
+  left: 0;
+ }
+ to {
+  position: relative;
+  left: 1em;
+ }
+}
+
+p:nth-of-type(1) {
+ animation-duration: 2s;
+ animation-name: fall;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
+@keyframes schuiven {
+ from {
+  position: relative;
+  left: 0;
+ }
+ to {
+  position: relative;
+  left: -5em;
+ }
+}
+
+.schuif {
+ animation-duration: 5s;
+ animation-name: schuiven;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
+@keyframes fall2 {
+ from {
+  transform: rotate(-3deg);
+  position: relative;
+  left: 0;
+ }
+ to {
+  position: relative;
+  left: 3em;
+ }
+}
+
+p:nth-of-type(3) {
+ animation-duration: 8s;
+ animation-name: fall2;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
+@keyframes fall3 {
+ from {
+  transform: rotate(10deg);
+  position: relative;
+  left: 0;
+ }
+ to {
+  position: relative;
+  left: -4em;
+ }
+}
+
+p:nth-of-type(4) {
+ animation-duration: 10s;
+ animation-name: fall3;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
 article {
  border: none;
  padding: 1em;
@@ -176,7 +251,7 @@ p {
 
 @media (max-width: 35rem) {
  header {
-  width: 100vw;
+  width: 100%;
  }
  article {
   margin: 0;
