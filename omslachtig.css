@@ -56,10 +56,16 @@ button {
  display: none;
  background-color: #7dc142;
  padding: 1em;
+ position: relative;
+ left: -1em;
 }
 
 .stap2 {
  display: none;
+ background-color: #fdeee9;
+ padding: 1em;
+ position: relative;
+ left: 2em;
 }
 
 .expanded { 
