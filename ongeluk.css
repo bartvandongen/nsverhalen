@@ -249,6 +249,30 @@ p {
  padding: 0;
 }
 
+img[src="images/cirkel_ongeluk_1.svg"] {
+ width: 30em;
+ height: auto;
+ position: absolute;
+ top: 80%;
+ left: 5%;
+}
+
+img[src="images/cirkel_ongeluk_2.svg"] {
+ width: 20em;
+ height: auto;
+ position: absolute;
+ top: 150%;
+ left: -10%;
+}
+
+img[src="images/driehoek_ongeluk_1.svg"] {
+ width: 15em;
+ height: auto;
+ position: absolute;
+ top: 200%;
+ left: 40%;
+}
+
 @media (max-width: 35rem) {
  header {
   width: 100%;
