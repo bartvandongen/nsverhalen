@@ -1,7 +1,3 @@
-h1 {
- background-color: transparent;
-}
-
 nav ul a {
  color: #e7e6e9;
 }
@@ -19,6 +15,7 @@ article {
  padding: 1em;
  margin: 1em;
  max-width: 35em;
+ background-color: transparent;
 }
 
 article:hover {

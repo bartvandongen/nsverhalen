@@ -22,3 +22,10 @@ var visibleMaken2 = function () {
 };
 
 document.querySelector('.button4').addEventListener('click', visibleMaken2);
+
+var visibleMaken3 = function () {      
+ document.querySelector('.stap3').classList.add('expanded');
+ document.querySelector('.button5').classList.add('noshow');
+};
+
+document.querySelector('.button5').addEventListener('click', visibleMaken3);

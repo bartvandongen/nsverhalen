@@ -37,7 +37,7 @@ h1 {
  margin: 0;
  padding: 0.5em;
  font-size: 1.2rem;
- background-color: #2e2e2e;
+ background-color: #ffc846;
 }
 
 h1:hover {
@@ -45,7 +45,7 @@ h1:hover {
 }
 
 h1 a {
- color: white;
+ color:#003264;
  text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ header ul img {
 }
 
 aside {
- background-color: #2e2e2e;
+ background-color: #003264;
  color: white;
  max-width: 35em;
  min-width: 60vw;
@@ -129,6 +129,7 @@ h2 {
  font-family: 'ns_sans_bold';
  max-width: 20rem;
  line-height: 2.5rem;
+ color: #003264;
 }
 
 p{
@@ -141,6 +142,7 @@ article {
  padding: 1em;
  margin: 1em;
  max-width: 20em;
+ background-color: #e7e6e9;
 }
 
 .ongeluk {
@@ -149,8 +151,14 @@ article {
  background-repeat: no-repeat;
 }
 
-.droom{
+.droom {
  background-image: url(images/droom_thumb.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.omslachtig {
+ background-image: url(images/omslachtig_thumb.png);
  background-size: cover;
  background-repeat: no-repeat;
 }
