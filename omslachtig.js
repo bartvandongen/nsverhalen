@@ -15,3 +15,10 @@ var invisibleMaken2 = function () {
 };
 
 document.querySelector('.button3').addEventListener('click', invisibleMaken2);
+
+var visibleMaken2 = function () {      
+ document.querySelector('.stap2').classList.add('expanded');
+ document.querySelector('.button3').classList.add('noshow');
+};
+
+document.querySelector('.button3').addEventListener('click', visibleMaken2);
