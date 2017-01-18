@@ -18,8 +18,7 @@ fieldset {
 legend {
  font-family: 'ns_sans_bold';
  font-size: 1.2em;
- padding: 1em;
- margin-bottom: 1em;
+ padding: 1em 0 1em 0;
 }
 
 input {
@@ -42,10 +41,18 @@ input:valid {
  
 }
 
+:optional {
+  opacity: 0.4;
+}
+
+:optional:hover {
+  opacity: 1;
+}
+
 form a{
  font-size: 1em;
  padding: 0.5em;
- margin-top: 0.5em;
+ margin: 1em;
  background-color: #003264;
  color: white;
  border: none;
