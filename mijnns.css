@@ -1,0 +1,56 @@
+body {
+ display: block;
+ background-color: white;
+}
+
+form {
+ background-color: #e7e6e9;
+ padding: 3em;
+}
+
+fieldset {
+ display: block;
+ border: none;
+ margin: 0;
+ max-width: 35rem;
+}
+
+legend {
+ font-family: 'ns_sans_bold';
+ font-size: 1.2em;
+ padding: 1em;
+ margin-bottom: 1em;
+}
+
+input {
+ display: block;
+ margin: 1em;
+ font-size: 1em;
+ padding: 0.5em;
+ border: none;
+}
+
+input[type="email"] {
+ 
+}
+
+input[type="email"]:focus {
+ 
+}
+
+input[type="email"]:invalid {
+
+}
+
+input[type="email"]:valid {
+ 
+}
+
+input[type="submit"] {
+ font-size: 1em;
+ padding: 0.5em;
+ margin: 0.5em;
+ background-color: #003264;
+ color: white;
+ border: none;
+}
