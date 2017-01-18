@@ -37,15 +37,11 @@ input:invalid {
  border: 2px solid #ffc846;
 }
 
-input:valid {
- 
-}
-
 :optional {
   opacity: 0.4;
 }
 
-:optional:hover {
+:optional:hover, :optional:focus  {
   opacity: 1;
 }
 
