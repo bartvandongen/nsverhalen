@@ -30,27 +30,30 @@ input {
  border: none;
 }
 
-input[type="email"] {
+input:focus {
+ border: 2px solid #003264;
+}
+
+input:invalid {
+ border: 2px solid #ffc846;
+}
+
+input:valid {
  
 }
 
-input[type="email"]:focus {
- 
-}
-
-input[type="email"]:invalid {
-
-}
-
-input[type="email"]:valid {
- 
-}
-
-input[type="submit"] {
+form a{
  font-size: 1em;
  padding: 0.5em;
- margin: 0.5em;
+ margin-top: 0.5em;
  background-color: #003264;
  color: white;
  border: none;
+ text-decoration: none;
+}
+
+i {
+ font-size: 0.8em;
+ display: block;
+ color: #003264;
 }

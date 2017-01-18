@@ -12,7 +12,7 @@
             <nav>
                 <h1><a href="index.html">NS 99 verhalen</a></h1>
                 <ul>
-                    <li><a href="#"><img src="images/ik3.jpg" alt="mijn ns icoon">Mijn NS</a></li>
+                    <li><a href="mijn_ns.html"><img src="images/ik3.jpg" alt="mijn ns icoon">Mijn NS</a></li>
                     <li><a href="#"><img src="images/search.svg" alt="search icon">Zoeken</a></li>
 	            </ul>
 	        </nav>
@@ -21,10 +21,10 @@
             <form>
                 <fieldset>
                     <legend>Log in of maak een account aan</legend>
-                    <label>Vul hier je e-mail adres in: </label><input type="email" placeholder="mijn@email.nl">
-                    <label>Vul hier je huidige wachtwoord in of bedenk alvast een nieuw wachtwoord voor je toekomstige account: </label><input type="password" placeholder="wachtwoord123!">
-                    <input type="submit" value="Ga door  >">
+                    <label>Vul hier je e-mail adres in: </label><input type="email" placeholder="mijn@email.nl" required>
+                    <label>Vul hier je huidige wachtwoord in of bedenk alvast een nieuw wachtwoord voor je toekomstige account: </label><i>(Een nieuw wachtwoord moet minimaal 8 tekens lang zijn.)</i><input type="password" placeholder="wachtwoord123!" pattern=".{8,}" required>
                 </fieldset>
+                 <a href="mijn_ns_registreren.html">Ga door  ></a>
             </form>
         </main>
 	</body>
