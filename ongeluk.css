@@ -160,7 +160,7 @@ span {
 
 @keyframes fall {
  from {
-  transform: translateX(1em) rotate(2deg);
+  transform: translateX(0em) rotate(2deg);
  }
  to {
   transform: translateX(1em) rotate(0);
@@ -177,11 +177,11 @@ p:nth-of-type(1) {
 @keyframes schuiven {
  from {
   position: relative;
-  tranform: translateX(0);
+  transform: translateX(0em);
  }
  to {
   position: relative;
-  tranform: translateX(-5em);
+  transform: translateX(-5em);
  }
 }
 
@@ -190,11 +190,12 @@ p:nth-of-type(1) {
  animation-name: schuiven;
  animation-iteration-count: infinite;
  animation-direction: alternate;
+ display: block;
 }
 
 @keyframes fall2 {
  from {
-  transform: translateX(0) rotate(-3deg);
+  transform: translateX(0em) rotate(-3deg);
  }
  to {
   transform: translateX(-3em) rotate(0);
@@ -210,7 +211,7 @@ p:nth-of-type(3) {
 
 @keyframes fall3 {
  from {
-  transform: translateX(0) rotate(10deg);
+  transform: translateX(0em) rotate(10deg);
  }
  to {
   transform: translateX(-4em) rotate(0);
