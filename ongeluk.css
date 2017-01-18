@@ -261,7 +261,7 @@ img[src="images/cirkel_ongeluk_2.svg"] {
  width: 20em;
  height: auto;
  position: absolute;
- top: 150%;
+ top: 300%;
  left: -10%;
 }
 
@@ -269,8 +269,24 @@ img[src="images/driehoek_ongeluk_1.svg"] {
  width: 15em;
  height: auto;
  position: absolute;
- top: 200%;
+ top: 250%;
  left: 40%;
+}
+
+img[src="images/driehoek_ongeluk_2.svg"] {
+ width: 40em;
+ height: auto;
+ position: absolute;
+ top: 400%;
+ left: 10%;
+}
+
+img[src="images/rechthoek_ongeluk_1.svg"] {
+ width: 50em;
+ height: auto;
+ position: absolute;
+ top: 150%;
+ left: 0;
 }
 
 @media (max-width: 35rem) {
