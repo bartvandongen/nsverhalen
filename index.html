@@ -1,151 +1,74 @@
 <!DOCTYPE html>
-<html lang="nl">
-	<head>
-		<meta charset="UTF-8">
-		<title>NS 99 Verhalen</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-	    <header>
-            <nav>
-                <h1><a href="index.html">NS 99 verhalen</a></h1>
-                <ul>
-                    <li><a href="mijn_ns.html"><img src="images/ik3.jpg" alt="mijn ns icoon">Mijn NS</a></li>
-                    <li><a href="#"><img src="images/search.svg" alt="search icon">Zoeken</a></li>
-	            </ul>
-	        </nav>
-	        <form class="select_wrap">
-                <select name="sorteren">
-                    <option value="nieuwste">Nieuwste</option>
-                    <option value="populairste">Populairste</option>
-                </select>
-                <img src="images/arrow_down.svg" alt="arrow down">
-                <select name="leestijd">
-                    <option value="default">Leestijd</option>
-                    <option value="0-5">0 -5 min.</option>
-                    <option value="5-10">5 - 10 min.</option>
-                    <option value="10+">10+ min.</option>
-                </select>
-                <img src="images/arrow_down.svg" alt="arrow down">
-                <select name="sfeerwoord">
-                    <option value="default">Sfeerwoord</option>
-                    <option value="0-5">Gedicht</option>
-                    <option value="5-10">Politiek</option>
-                    <option value="10+">Dialoog</option>
-                    <option value="0-5">Fantasie</option>
-                    <option value="5-10">Humor</option>
-                    <option value="10+">Liefde</option>
-                    <option value="5-10">Liederen</option>
-                    <option value="10+">Bekende figuren</option>
-                </select>
-                <img src="images/arrow_down.svg" alt="arrow down">
-	        </form>
-	    </header>
-	    <aside>
-	        <p>Nieuwste verhalen:</p>
-	    </aside>
-	   <main>
-            <article class="droom">
-                <header>
-                    <h2>Droom</h2>
-                    <address>Geplaatst op <time datetime="2011-02-04">04 feb. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten. <a href="droom.html">Een heipaal beukt zich een weg naar het binnenste van mijn oor. (lees nog 2 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">87
-                    <img src="images/comment.svg" alt="reageer icoon">26
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-            <article class="ongeluk">
-                <header>
-                    <h2>Ongeluk</h2>
-                    <address>Geplaatst op <time datetime="2011-02-17">17 feb. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>Voor het Centraal Station stap ik lijn 13 uit midden in een plas die zo diep is dat mijn hele schoen erin verdwijnt. Mijn zoontje, waarvan ik had gehoopt dat ie al zou slapen, jankt in z’n wagentje. Ik wil zijn speentje uit m’n jaszak halen, <a href="ongeluk.html">maar die ben ik kennelijk vergeten.(lees nog 5 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">125
-                    <img src="images/comment.svg" alt="reageer icoon">40
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-            <article class="omslachtig">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NS 99 Verhalen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <nav>
+           <ul>
+                <li>
+                   <a href="index.html">NS 99 Verhalen</a>
+                </li>
+                <li>
+                   <a href="#">Over oNS</a>
+                </li>
+                <li>
+                   <a href="mijn_ns.html">Mijn NS</a>
+                </li>
+                <li>
+                   <a href="#">Zoeken</a>
+                </li>
+           </ul>
+       </nav>
+       <form>
+            <select name="sorteren">
+                <option value="nieuwste">Nieuwste</option>
+                <option value="populairste">Populairste</option>
+            </select>
+            <select name="leestijd">
+                <option value="default">Leestijd</option>
+                <option value="0-5">0 -5 min.</option>
+                <option value="5-10">5 - 10 min.</option>
+                <option value="10+">10+ min.</option>
+            </select>
+             <select name="sfeerwoord">
+                <option value="default">Sfeerwoord</option>
+                <option value="0-5">Gedicht</option>
+                <option value="5-10">Politiek</option>
+                <option value="10+">Dialoog</option>
+                <option value="0-5">Fantasie</option>
+                <option value="5-10">Humor</option>
+                <option value="10+">Liefde</option>
+                <option value="5-10">Liederen</option>
+                <option value="10+">Bekende figuren</option>
+            </select>
+       </form>
+    </header>
+    <main>
+        <article class="omslachtig">
+           <div class="omslachtig_wrap">
                 <header>
                     <h2>Enigszins aan de omslachtige kant</h2>
                     <address>Geplaatst op <time datetime="2011-02-24">24 feb. 2011</time> door <span class="author">Molovich</span></address>
                 </header>
-                <p>Een autobus, eigendom van het Amsterdamse Gemeentevervoersbedrijf (hierna te noemen: GVB), zet mij en mijn gewaardeerde zoon, die zojuist in zijn gifgroene kinderwagen van het merk Koelstra in de slaaptoestand is geraakt, af bij het destijds door Abraham Kuyper, <a href="omslachtig.html">pardon ik bedoel natuurlijk P.J.H. Cuypers,(lees nog 12 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
+                    <a href="omslachtig.html">Lees verhaal <img src="images/arrow_right_white.svg" alt="pijl icoon"></a>
                 <footer>
-                    <img src="images/like.svg" alt="like icoon">250
-                    <img src="images/comment.svg" alt="reageer icoon">60
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
+                    <a href="#">
+                        <img src="images/like_white.svg" alt="like icoon">250
+                    </a>
+                    <a href="#">
+                        <img src="images/comment_white.svg" alt="reageer icoon">60
+                    </a>
+                    <a href="#">
+                        <img src="images/bookmark_white.svg" alt="opslaan icoon">
+                    </a>
                 </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Beroemd</h2>
-                    <address>Geplaatst op <time datetime="2011-07-11">11 jul. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal terug. ‘Mijn vrouw is een groot fan van u’, roept hij. ‘Doe haar de groeten’, zeg ik en stap uit. Centraal Station. Ik duw mijn zoon voort. Hij slaapt. Zich onbewust van de last die er op zijn schouders rust. <a href="#">Zoon zijn van de grote Max J. Molovich. Je geeft het hem te doen. (lees nog 3 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">62
-                    <img src="images/comment.svg" alt="reageer icoon">11
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Freudiaans</h2>
-                    <address>Geplaatst op <time datetime="2011-07-06">6 jul. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>Ik stap uit de lul. Mijn aarsrivaal ligt te slapen in zijn kinderwagen. Wat een kutweer. De mensen zijn met zichzelf bezig, wat er hoogstwaarschijnlijk op neerkomt dat ze aan seks met hun moeder denken. Ik ben op weg naar de Openaarse Bilbiotheek van Amsterdam, <a href="#">om Stijloefeningen te lenen, (lees nog 3 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">23
-                    <img src="images/comment.svg" alt="reageer icoon">2
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Steenkolenfrans</h2>
-                    <address>Geplaatst op <time datetime="2011-07-04">4 jul. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>Le premier fevrièr 2011. Presque midi. Le bus s’arrête. Ligne 21. Place de Gare Centrale. Je marche au derrière d’un poussette. Mon fils dort. Je suis en route au Bibliothèque Public pour emprunteur Exercices de Style de Raymond Queneau. C’est un livre très dificile d’acquérir.<a href="#"> Mais zut alors, quelle ravage ici! (lees nog 3 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">100
-                    <img src="images/comment.svg" alt="reageer icoon">94
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Martin Bril</h2>
-                    <address>Geplaatst op <time datetime="2011-07-01">1 jul. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>Centraal Station. Iedereen gaat er naartoe, niemand moet er zijn. Behalve om verder te reizen. Ik stap uit de bus, lijn 21.
-                Van Geuzenveld naar Centraal Station.
-                Mijn zoon slaapt in zijn kinderwagen. Eindelijk.
-                Het is druk op het plein, en toch heerst er een rust. De mensen zijn met zichzelf bezig. Kop in de kraag, ogen op de eigen voeten.
-                <a href="#">Het miezert en het waait.(lees nog 3 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">43
-                    <img src="images/comment.svg" alt="reageer icoon">60
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Het gebrek</h2>
-                    <address>Geplaatst op <time datetime="2011-06-29">1 jun. 2011</time> door <span class="author">Molovich</span></address>
-                </header>
-                <p>De bus uit. Mijn zoon tukt in zijn kinderkoets. Eindelijk. Ik loop over het plein. Een gierende wind en een striemende miezerregen geselen mijn gezicht. De mensen kijken voor zich uit, ieder voor zich. Ik ben op weg richting de bibliotheek om <a href="#">Stijloefeningen te lenen van hoe heet die schijver,(lees nog 3 minuten door) <img src="images/arrow_right.svg" alt="arrow right"></a></p>
-                <footer>
-                    <img src="images/like.svg" alt="like icoon">25
-                    <img src="images/comment.svg" alt="reageer icoon">13
-                    <img src="images/bookmark.svg" alt="opslaan icoon">
-                </footer>
-            </article>
-        </main>
-	</body>
+            </div>
+        </article>
+    </main>
+</body>
 </html>
