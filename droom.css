@@ -1,5 +1,5 @@
 nav ul a {
- color: #e7e6e9;
+ color: white;
 }
 
 h2 {
@@ -8,6 +8,15 @@ h2 {
 
 body{
  background-color: #003264;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav a[href="index.html"] {
+    background-color: white;
+    color: #003264;
 }
 
 article {
@@ -23,7 +32,7 @@ article:hover {
 }
 
 address {
- color: #e7e6e9;
+ color: white;
 }
 
 @keyframes opacity {

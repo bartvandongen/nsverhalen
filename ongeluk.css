@@ -26,6 +26,12 @@ body>header {
  z-index: 2;
 }
 
+article {
+ background-color: transparent;
+ box-shadow: none;
+ width: 35em;
+}
+
 .shape_container {
  display: flex;
  flex-wrap: wrap;

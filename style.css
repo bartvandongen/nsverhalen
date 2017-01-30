@@ -63,12 +63,6 @@ nav a[href="index.html"] {
     font-family: 'ns_sans';
 }
 
-/*form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}*/
-
 main{
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +110,20 @@ h2 {
     top: -1em;
     left: -1em;
 }
+
+.ongeluk_header_img {
+    width: 25em;
+    height:5em;
+    background-image: url(images/ongeluk_thumb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: #a59b94;
+    position: relative;
+    top: -1em;
+    left: -1em;
+}
+
 
 .omslachtig {
     background-image: url(images/omslachtig_thumb.svg);
