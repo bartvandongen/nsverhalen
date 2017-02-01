@@ -94,10 +94,10 @@ form img {
 }
 
 form ul li {
-    list-style: none;
+    list-style: circle;
     color: white;
     padding: 0.5em;
-    display: inline-block;
+    margin-left: 2rem;
 }
 
 .sfeerwoord_noshow, .sorteren_noshow, .leestijd_noshow {
@@ -118,11 +118,18 @@ form div {
     padding: 0.5em;
     z-index: 1;
     box-shadow: 0px 0.2em 0px 0px rgba(0,0,0,0.2);
+    min-width: 10rem;
 }
 
 .opties {
     font-size: 0.7em;
     font-style: italic;
+    list-style: none;
+}
+
+.sorteren_noshow li {
+    list-style: none;
+    margin-left: 0.5em;
 }
 
 main{
@@ -132,7 +139,6 @@ main{
 }
 
 aside {
-    display: block;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -284,7 +290,7 @@ article footer a:nth-of-type(3){
     }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 32rem) {
     .drop {
         position: relative;
         top: 0;
@@ -294,4 +300,18 @@ article footer a:nth-of-type(3){
         text-align: center;
         padding: 0.5em;
     }
+    .drop {
+        box-shadow: none;
+        background-color: white;
+        margin-top: 0.5em;
+    }
+    form ul li {
+        color: #2e2e2e;
+        padding: 0.3em;
+        margin-left: 0;
+    }
+    nav {
+        padding: 0.5em;
+    }
+    
 }

@@ -1,18 +1,25 @@
 body {
  display: block;
- background-color: white;
+}
+
+main {
+    max-width: 35rem;
 }
 
 form {
  background-color: #e7e6e9;
- padding: 3em;
+ padding: 1em;
+ box-shadow: none;
 }
 
 fieldset {
- display: block;
  border: none;
  margin: 0;
  max-width: 35rem;
+}
+
+form {
+ display: block;
 }
 
 legend {
@@ -45,18 +52,34 @@ input:invalid {
   opacity: 1;
 }
 
-form a{
- font-size: 1em;
- padding: 0.5em;
- margin: 1em;
- background-color: #003264;
- color: white;
- border: none;
- text-decoration: none;
+input[type="submit"]{
+    text-decoration: none;
+    background-color: #007ab9;
+    color: white;
+    padding: 0.5em 0.7em;
+    box-shadow: 0px 0.1em 0px 0px rgba(0,0,0,0.2);
+    opacity: 1;
 }
 
 i {
  font-size: 0.8em;
  display: block;
  color: #003264;
+}
+
+.form_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+aside {
+    display: block;
+    padding: 1em;
+    max-width: 35rem;
+}
+
+aside li {
+    padding: 0.5em;
+    list-style: circle;
 }
