@@ -14,10 +14,6 @@ nav {
     background-color: transparent;
 }
 
-nav a[href="index.html"] {
-    background-color: white;
-    color: #003264;
-}
 
 article {
  border: none;

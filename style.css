@@ -56,17 +56,25 @@ li a {
     color: #2e2e2e; 
 }
 
-nav a[href="index.html"] {
-    background-color: #2e2e2e;
-    color: white;
-    padding: 0.5em;
-    font-family: 'ns_sans';
-}
-
 nav img {
     width: 1rem;
     height: auto;
     margin: 0 0.5em 0 0.5em;
+}
+
+img[src="images/ns_logo.svg"] {
+    width: 2rem;
+    height: auto;
+    margin-left: 0;
+}
+
+#titel {
+    background-color: #2e2e2e;
+}
+
+#titel a {
+    color: white;
+    font-family: 'ns_sans';
 }
 
 input {
@@ -87,7 +95,6 @@ input:focus {
     font-size: 1.2rem;
     min-width: 25em;
     text-align: right;
-    
 }
 
 .search_expand {
@@ -144,10 +151,11 @@ form div {
     z-index: 1;
     box-shadow: 0px 0.2em 0px 0px rgba(0,0,0,0.2);
     min-width: 10rem;
+    font-size: 1rem;
 }
 
 .opties {
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-style: italic;
     list-style: none;
 }
@@ -259,12 +267,21 @@ address {
     font-family: 'ns_sans_bold';
 }
 
-a[href="omslachtig.html"]{
+a[href="omslachtig.html"] {
     text-decoration: none;
     background-color: #007ab9;
     color: white;
     padding: 0.5em 0.7em;
     box-shadow: 0px 0.1em 0px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+a[href="omslachtig.html"]:hover {
+    background-color: #003264;
+}
+
+.grow:hover {
+    transform: scale(1.1,1.1);
 }
 
 article p a img {
@@ -313,6 +330,16 @@ article footer a:nth-of-type(3){
     .ongeluk_header_img {
         width: 90vw;
     }
+    .drop {
+        width: 80vw;
+        position: inherit;
+    }
+    .zoekbalk {
+        min-width: 0;
+        width: 90vw;
+        position: absolute;
+        left: 1em;
+    }
 }
 
 @media (max-width: 32rem) {
@@ -338,5 +365,4 @@ article footer a:nth-of-type(3){
     nav {
         padding: 0.5em;
     }
-    
 }
