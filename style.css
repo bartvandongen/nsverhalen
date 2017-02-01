@@ -77,12 +77,14 @@ form {
     justify-content: center;
     padding: 1em;
     background-color: #2e2e2e;
+    box-shadow: 0px 0.2em 0px 0px rgba(0,0,0,0.2);
 }
 
 form a {
     text-decoration: none;
     color: white;
     padding: 1em;
+    font-family: 'ns_sans_bold'; 
 }
 
 form img {
@@ -95,6 +97,7 @@ form ul li {
     list-style: none;
     color: white;
     padding: 0.5em;
+    display: inline-block;
 }
 
 .sfeerwoord_noshow, .sorteren_noshow, .leestijd_noshow {
@@ -110,13 +113,16 @@ form div {
 .drop {
     display: block;
     position: absolute;
-    top: 2em;
+    top: 1.5em;
     background-color: #2e2e2e;
     padding: 0.5em;
+    z-index: 1;
+    box-shadow: 0px 0.2em 0px 0px rgba(0,0,0,0.2);
 }
 
 .opties {
     font-size: 0.7em;
+    font-style: italic;
 }
 
 main{
@@ -253,4 +259,39 @@ article img {
 
 article footer a:nth-of-type(3){
     margin-left: auto;
+}
+
+@media (max-width: 65rem) {
+    .omslachtig {
+    height: 20em;
+    width: 90vw;
+    display: flex;
+    }
+    .omslachtig footer{
+    width: 85vw;
+    }
+}
+
+@media (max-width: 40rem) {
+    article {
+        width: 90vw;
+    }
+    .droom_header_image {
+        width: 90vw;
+    }
+    .ongeluk_header_img {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 30rem) {
+    .drop {
+        position: relative;
+        top: 0;
+    }
+    form div {
+        width: 100%;
+        text-align: center;
+        padding: 0.5em;
+    }
 }
