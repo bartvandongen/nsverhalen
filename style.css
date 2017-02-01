@@ -41,7 +41,7 @@ nav ul:nth-of-type(2) {
 }
 
 nav li {
-    padding: 0.5em;
+    padding: 0.5em;    
 }
 
 nav li a{
@@ -67,6 +67,31 @@ nav img {
     width: 1rem;
     height: auto;
     margin: 0 0.5em 0 0.5em;
+}
+
+input {
+ transition:all .2s;
+}
+
+input:focus {
+ border: 2px solid #003264;
+  transform: scale(1.1, 1.1);
+}
+
+.zoekbalk {
+    display: none;
+    background-color: #e7e6e9;
+    border: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 1.2rem;
+    min-width: 25em;
+    text-align: right;
+    
+}
+
+.search_expand {
+    display: block;
 }
 
 form {

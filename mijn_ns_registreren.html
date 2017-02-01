@@ -8,26 +8,31 @@
 		<link rel="stylesheet" href="mijnns.css">
 	</head>
 	<body>
-	    <header>
-       <nav>
-           <ul>
-                <li>
-                   <a href="index.html">NS 99 Verhalen</a>
-                </li>
-                <li>
-                   <a href="#">Over oNS</a>
-                </li>
-           </ul>
-            <ul>
-                <li>
-                   <a href="mijn_ns.html"><img src="images/mijn_ns.svg" alt="mijn NS icoon">Mijn NS</a>
-                </li>
-                <li>
-                   <a href="#"><img src="images/search.svg" alt="zoeken icoon">Zoeken</a>
-                </li>
-           </ul>
-       </nav>
-    </header>
+    <header>
+           <nav>
+               <ul>
+                    <li>
+                       <a href="index.html">NS 99 Verhalen</a>
+                    </li>
+                    <li>
+                       <a href="#">Over oNS</a>
+                    </li>
+               </ul>
+                <ul>
+                    <li>
+                       <a href="mijn_ns.html"><img src="images/mijn_ns.svg" alt="mijn NS icoon">Mijn NS</a>
+                    </li>
+                    <li id="leuk">
+                       <a href="#" class="search">
+                           <img src="images/search.svg" alt="zoeken icoon">Zoeken
+                        </a>
+                        <input class="zoekbalk" type="search" placeholder="Zoek naar verhalen of op sfeerwoorden.">
+                    </li>
+               </ul>
+
+           </nav>
+        </header>
+     <div class="form_container">
 	    <main>
             <form>
                 <fieldset>
@@ -42,8 +47,18 @@
                     <label>Huisnummer</label><input type=text placeholder="Huisnummer" >
                     <label>Telefoonnummer</label><input type="tel" pattern="[0-9].{7,}" placeholder="Telefoonnummer">
                 </fieldset>
-                <a href="index.html">Registratie afronden  ></a>
+                <input type="submit" value=">    Afronden">
             </form>
         </main>
+        <aside>
+            <h2>Waarom mijn NS verhalen?</h2>
+            <ul>
+                <li>Snel verhalen opslaan en terugvinden.</li>
+                <li>Reacties plaatsen en deelnemen aan de gesprekken bij de verhalen.</li>
+                <li>Speciale aanbiedingen voor NS verhalen lezers.</li>
+            </ul>
+        </aside>
+        </div>
+        <script src="script.js" type="text/javascript"></script>
 	</body>
 </html>

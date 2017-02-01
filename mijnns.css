@@ -37,10 +37,16 @@ input {
  font-size: 1em;
  padding: 0.5em;
  border: none;
+ transition:all .2s;
+}
+
+input[type="email"], input[type="password"] {
+    min-width: 20rem;
 }
 
 input:focus {
  border: 2px solid #003264;
+  transform: scale(1.1, 1.1);
 }
 
 input:invalid {
@@ -70,6 +76,11 @@ i {
  color: white;
 }
 
+form a[href="#"] {
+    font-family: 'ns_sans';
+    font-size: 0.8em;
+}
+
 .form_container {
     display: flex;
     flex-wrap: wrap;
@@ -97,4 +108,10 @@ aside li {
     padding: 0.5em;
     list-style: circle;
     font-style: italic;
+}
+
+@media (max-width:25rem) {
+    input[type="email"], input[type="password"] {
+    min-width: 0;
+    }
 }

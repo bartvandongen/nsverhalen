@@ -22,10 +22,14 @@
                 <li>
                    <a href="mijn_ns.html"><img src="images/mijn_ns.svg" alt="mijn NS icoon">Mijn NS</a>
                 </li>
-                <li>
-                   <a href="#"><img src="images/search.svg" alt="zoeken icoon">Zoeken</a>
+                <li id="leuk">
+                   <a href="#" class="search">
+                       <img src="images/search.svg" alt="zoeken icoon">Zoeken
+                    </a>
+                    <input class="zoekbalk" type="search" placeholder="Zoek naar verhalen of op sfeerwoorden.">
                 </li>
            </ul>
+           
        </nav>
     </header>
     <div class="form_container">
@@ -36,10 +40,10 @@
                     <label>Vul hier je e-mail adres in: </label><input type="email" placeholder="mijn@email.nl" required>
                     <label>Vul hier je huidige wachtwoord in of bedenk alvast een nieuw wachtwoord voor je toekomstige account: </label><i>(Een nieuw wachtwoord moet minimaal 8 tekens lang zijn.)</i><input type="password" placeholder="wachtwoord123!" pattern=".{8,}" required>
                 </fieldset>
+                <a href="#">Wachtwoord vergeten</a>
                 <input type="submit" value=">    Ga door">
             </form>
         </main>
-        
         <aside>
             <h2>Waarom mijn NS verhalen?</h2>
             <ul>
@@ -49,5 +53,7 @@
             </ul>
         </aside>
     </div>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="form.js" type="text/javascript"></script>
 	</body>
 </html>
