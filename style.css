@@ -69,9 +69,66 @@ nav img {
     margin: 0 0.5em 0 0.5em;
 }
 
+form {
+    border: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    background-color: #2e2e2e;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+form img {
+    width: 0.8rem;
+    height: auto;
+    margin-left: 0.5em;
+}
+
+form ul li {
+    list-style: none;
+    color: white;
+    padding: 0.5em;
+}
+
+.sfeerwoord_noshow, .sorteren_noshow, .leestijd_noshow {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+form div {
+    position: relative;
+}
+
+.drop {
+    display: block;
+    position: absolute;
+    top: 2em;
+    background-color: #2e2e2e;
+    padding: 0.5em;
+}
+
+.opties {
+    font-size: 0.7em;
+}
+
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+aside {
+    display: block;
+    width: 100%;
+    display: flex;
     justify-content: center;
 }
 
