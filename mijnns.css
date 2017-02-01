@@ -10,12 +10,15 @@ form {
  background-color: #e7e6e9;
  padding: 1em;
  box-shadow: none;
+ background-color: #003264;
+ color: white;
 }
 
 fieldset {
  border: none;
  margin: 0;
  max-width: 35rem;
+ padding: 0;
 }
 
 form {
@@ -64,7 +67,7 @@ input[type="submit"]{
 i {
  font-size: 0.8em;
  display: block;
- color: #003264;
+ color: white;
 }
 
 .form_container {
@@ -76,10 +79,22 @@ i {
 aside {
     display: block;
     padding: 1em;
-    max-width: 35rem;
+    margin-left: 2em;
+    max-width: 25rem;
+}
+
+h2 {
+ font-family: 'ns_sans_bold';
+ font-size: 1.2em;
+ padding: 1em 0 1em 0;
+}
+
+aside ul {
+    padding: 0;
 }
 
 aside li {
     padding: 0.5em;
     list-style: circle;
+    font-style: italic;
 }
