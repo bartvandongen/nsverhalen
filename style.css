@@ -63,6 +63,12 @@ nav a[href="index.html"] {
     font-family: 'ns_sans';
 }
 
+nav img {
+    width: 1rem;
+    height: auto;
+    margin: 0 0.5em 0 0.5em;
+}
+
 main{
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +102,8 @@ article p a {
 
 h2 {
     margin: 0.2em 0 0.5em 0;
+    font-family: 'ns_sans_bold';
+    color: #003264;
 }
 
 .droom_header_image {
@@ -103,8 +111,8 @@ h2 {
     height:5em;
     background-image: url(images/droom_thumb.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+    background-size: 200%;
+    background-position: top;
     background-color: #003264;
     position: relative;
     top: -1em;
@@ -166,9 +174,8 @@ a[href="omslachtig.html"]{
 }
 
 article p a img {
-    width: 0.7em;
+    width: 0.85em;
     height: auto;
-    margin: 0;
     margin: 0 1em 0 0.5em;
 }
 
