@@ -288,6 +288,10 @@ a[href="omslachtig.html"]:hover {
     transform: scale(1.1,1.1);
 }
 
+article footer a {
+  cursor: pointer;
+}
+
 article p a img {
     width: 0.85em;
     height: auto;
