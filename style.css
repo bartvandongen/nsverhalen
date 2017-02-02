@@ -280,6 +280,10 @@ a[href="omslachtig.html"]:hover {
     background-color: #003264;
 }
 
+.grow {
+    transition:all .2s;
+}
+
 .grow:hover {
     transform: scale(1.1,1.1);
 }

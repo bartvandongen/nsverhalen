@@ -1,4 +1,4 @@
-var zoeken = function () {          
+var zoeken = function () {
     document.querySelector('.zoekbalk').classList.toggle('search_expand');
 };
 
