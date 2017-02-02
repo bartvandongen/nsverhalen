@@ -302,6 +302,7 @@ a[href="omslachtig.html"]:hover {
     background-color: #003264;
 }
 
+
 .grow {
     transition:all .2s;
 }
@@ -325,14 +326,21 @@ article p a img {
     text-decoration: none;
 }
 
-article img {
+a[href="omslachtig.html"] img {
+    width: 15px;
+    height: auto;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+article footer img {
     width: 1rem;
     height: auto;
-    margin: 0 0.5em 0 0.5em;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .omslachtig footer img {
     width: 1.3rem;
+    height: auto;
 }
 
 article footer a:nth-of-type(3){

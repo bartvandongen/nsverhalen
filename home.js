@@ -18,5 +18,6 @@ document.querySelector('.sfeerwoord').addEventListener('click', dropdown3);
 
 var mijnNS = function () {
     document.querySelector('.bookmark_ns').classList.toggle('mijnNS_bookmark');
-}
+};
+
 document.querySelector('.bookmark').addEventListener('click', mijnNS);
