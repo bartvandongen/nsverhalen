@@ -100,6 +100,28 @@ input:focus {
 .search_expand {
     display: block;
 }
+.bookmark {
+    transition:all .2s;
+}
+
+.bookmark:hover {
+    transform: scale(1.1,1.1);
+}
+
+@keyframes groeien {
+    from {
+        transform: scale(1.0,1.0);
+    }
+    to {
+        transform: scale(1.3,1.3);
+    }
+}
+
+.mijnNS_bookmark {
+     animation-duration: .5s;
+     animation-name: groeien;
+     animation-direction: alternate;
+}
 
 form {
     border: none;
